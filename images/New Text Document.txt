@@ -1,0 +1,184 @@
+https://codepen.io/dig-lopes/pen/WLVGda
+http://detheme.com/templates/perfolio/
+https://codepen.io/vivngo/details/vwwmNy
+
+https://hibix.template.advanceup.com.ua/Demo/HomePage_01/index.html
+
+https://themes.envytheme.com/milian/#portfolio
+https://ix-theme.com/html/zuman/index.html?fbclid=IwAR0rhrLhx0TRzV8K34hpdlct46IIRdYOrorJyE9mdaFDn2FrjPTEPVey0Hw
+https://latahsin.github.io/avita/index-default.html#
+
+function(evn) {
+  evn.preventDefault();
+  jQuery('html,body').scrollTo(this.hash, this.hash, {
+    gap: {
+      y: -scrollOffset - 85
+    },
+    animation: {
+      duration: 1500,
+      easing: "easeInOutExpo"
+    }
+  });
+  return false;
+}
+
+/*GrayScale*/
+.column#grayscale img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.column#grayscale:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+-----
+
+
+    HTML CSS 
+
+    Result 
+
+div{
+  margin: 20px auto;
+  display:block;
+  background: url('http://www.when-to-go.com/files/2018/03/sled.jpg');
+  width:380px;
+  height:350px;
+  background-blend-mode: multiply;
+  background-color: red!important;
+  background-size:cover;
+  -webkit-transition: background-color 2s,;
+    transition:  background-color 0.5s;
+}
+
+div:hover{background-color: rgba(0,0,0, 0.0)!important;}
+
+	----
+  .grayscale-hover:hover {
+    -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.5s ease;
+  }
+  .grayscale-hover{
+    -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+  }	
+
+
+------------
+key frame
+https://codepen.io/comehope/pen/YvBvBr
+
+
+
+imp
+http://adhyasoft.com/themeforest/arika/arika/index.html
+
+http://adhyasoft.com/themeforest/arika/arika/index.html		
+
+
+-------------------
+
+       <div class="Down__btn">
+
+<a href="#about__content">
+
+<i class="fas fa-angle-double-down" aria-hidden="true"></i>
+
+</a>
+</div>             
+            
+
+------------------
+.Down__btn{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    display: block;
+    bottom: 30px;
+    text-align: center;
+    z-index: 1;
+    animation-name: DownBtn;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.305, 1, 1.000, 0);
+    animation-iteration-count: infinite;
+}
+
+.Down__btn i{
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    display: block;
+    z-index: 9;
+}
+
+.Down__btn a{
+    text-decoration: none;
+    display: block;
+}
+
+@keyframes DownBtn{
+    from{
+        bottom: 30px;
+        animation-timing-function: ease-out;
+    }
+    50%{
+        bottom: 50px;
+        animation-timing-function: ease-out;
+    }
+    to{
+        bottom: 30px;
+        animation-timing-function: ease-out;
+    }
+}
+	---------------
+    // down-button
+   
+ 
+ 
+
+   $('.down-button').click (function() {
+      $('html, body').animate({scrollTop: $('#about').offset().top }, 1500);
+      return false;
+    });
+
+
+-------------------------scroll-down---------
+<div class="circle">
+	<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	<i class="fa fa-chevron-down" aria-hidden="true"></i>
+	<i class="fa fa-chevron-down" aria-hidden="true"></i>
+</div>
+---------------------------------
+.circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+}
+.circle i {
+	margin: -7px;
+	font-size: 30px;
+	animation: flashing 1s ease infinite alternate;
+}
+.circle i:nth-child(2) {
+	animation-delay: 0.3s;
+}
+.circle i:last-child {
+	animation-delay: 0.6s;
+}
+@keyframes flashing {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.1;
+	}
+}
+		
