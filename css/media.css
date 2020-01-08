@@ -153,6 +153,10 @@ ul.icon {
 
 	text-align: center;
 }
+ul.icon-2 li {
+	list-style: none;
+	margin: 0 5px;
+}
     /*-----Service------*/
    #service {
 	padding-top: 50px;
@@ -427,6 +431,10 @@ ul.icon {
 .quality-1 h3 {
 
 	text-align: center;
+}
+    ul.icon-2 li {
+	list-style: none;
+	margin: 0 15px;
 }
    /*-----Service------*/
    #service {

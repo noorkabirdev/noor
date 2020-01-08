@@ -158,7 +158,7 @@ $('.feedback-slider').slick({
  
 
    $('.down-button').click (function() {
-      $('html, body').animate({scrollTop: $('#about').offset().top }, 1500);
+      $('html, body').animate({scrollTop: $('#about').offset().top- 45 }, 1500);
       return false;
     });
     
