@@ -20,6 +20,9 @@ ol {
 img {
     vertical-align: middle;
 }
+body {
+    overflow-x: hidden;
+}
 
 /*========version 2 CSS=========*/
 #index2 .banner-text h1 {
@@ -507,7 +510,7 @@ ul.icon li a:hover {
     font-size: 36px;
     font-weight: 600;
     color: #f6b302;
-    margin-left: 10px;
+    text-transform: uppercase;
     padding-bottom: 10px;
 }
 
@@ -570,14 +573,14 @@ ul.icon li a:hover {
 }
 
 .hr {
-    margin-top: 20px;
+   
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #f6b302;
 }
 
 .button-2 {
-    padding-top: 30px;
+    padding-top: 56px;
     padding-bottom: 10px;
 }
 
@@ -706,7 +709,7 @@ ul.icon li a:hover {
 
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: bold;
     color: #fff;
     text-transform: uppercase;
 }
@@ -864,6 +867,7 @@ ul.icon-2 li a:hover {
     padding-bottom: 10px;
     padding-top: 10px;
     text-transform: uppercase;
+    
 }
 
 .service-1 {
@@ -885,8 +889,10 @@ ul.icon-2 li a:hover {
 
 
 .service-inside:hover {
-    border-bottom-color: #d09b10;
-    transform: translateY(-8px);
+	border-bottom-color: #d09b10;
+	transform: translateY(-8px);
+	
+	cursor: pointer;
 }
 
 .service-inside i {
@@ -898,7 +904,7 @@ ul.icon-2 li a:hover {
 
 .service-inside i:hover {
     color: #d09b10;
-
+    transition: all linear .3s;
 
 }
 
@@ -949,14 +955,14 @@ ul.icon-2 li a:hover {
 }
 
 .counter-all i {
-    font-size: 32px;
+    font-size: 36px;
     color: #fff;
     padding-bottom: 15px;
 }
 
 .counter-all h2 {
 
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
@@ -965,12 +971,11 @@ ul.icon-2 li a:hover {
 }
 
 .counter-all p {
-
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #fff;
-
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
 }
 
 /*--------portfolio css ------*/
@@ -1379,7 +1384,7 @@ ul.icon-2 li a:hover {
     font-size: 36px;
     font-weight: 400;
     color: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     padding-top: 10px;
     text-transform: uppercase;
 }
@@ -1426,7 +1431,7 @@ ul.icon-2 li a:hover {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
-
+    text-transform: uppercase;
 }
 
 .card-text {
@@ -1532,6 +1537,7 @@ ul.icon-2 li a:hover {
     color: #fff;
     padding-bottom: 70px;
     padding-top: 10px;
+    text-transform: uppercase;
 }
 
 .contact-icon i {
@@ -1592,7 +1598,7 @@ ul.icon-2 li a:hover {
 
 .form-control-3 {
     display: block;
-    width: 90%;
+    width: 93%;
     height: 145px;
     padding: 15px 25px;
     font-size: 1rem;
